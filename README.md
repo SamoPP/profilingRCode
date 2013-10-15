@@ -28,15 +28,16 @@ And profiler says:
  0.986   3#438 > [.xts > 2#94 > .parseISO8601 > 8#108 > as.POSIXlt > do.call > <Anonymous> > 7#111 > ISOdatetime > paste
 
 > summaryRprof("profile_generateTransactions.out", lines = "show")
-$by.self
-                  self.time self.pct total.time total.pct
-endpoints.R#111        3.92    10.32       3.92     10.32
-parse8601.R#35         3.64     9.58       3.64      9.58
-parse8601.R#36         3.64     9.58       3.64      9.58
-endpoints.R#138        3.46     9.11       3.46      9.11
-parse8601.R#31         2.80     7.37       2.80      7.37
-parse8601.R#125        2.38     6.27       2.38      6.27
-parse8601.R#119        2.28     6.00       2.28      6.00
+
+ $by.self                                                                                                           
+                   self.time self.pct total.time total.pct                                                                                                           
+ endpoints.R#111        3.92    10.32       3.92     10.32                                                                                                           
+ parse8601.R#35         3.64     9.58       3.64      9.58                                                                                                           
+ parse8601.R#36         3.64     9.58       3.64      9.58
+ endpoints.R#138        3.46     9.11       3.46      9.11
+ parse8601.R#31         2.80     7.37       2.80      7.37
+ parse8601.R#125        2.38     6.27       2.38      6.27
+ parse8601.R#119        2.28     6.00       2.28      6.00
 parse8601.R#96         1.92     5.06       4.82     12.69
 parse8601.R#153        1.88     4.95       1.88      4.95
 parse8601.R#108        1.32     3.48       9.26     24.38
